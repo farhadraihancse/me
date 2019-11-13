@@ -2,13 +2,15 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="function.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sofia">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<!-- here is date picker-->
 	<div id="date_picker_opener" class="date_picker_opener" onclick="datePickerOpenerCloser()">
 		<span id="date_picker_opener_date" style="color: black">Choose Date</span>
-		<img id="date_picker_common_close" class="date_picker_opener_icon" src="theme/date picker/icon.png"></div>
+		<img id="date_picker_common_close" class="date_picker_opener_icon" src="icon.png"></div>
 	<div id="date_picker_container" class="date_picker_container">
 		<div class="date_selector">
 			<select id="date_picker_month" class="select_for_date_picker" onchange="datePickerPlotAllDate()">
